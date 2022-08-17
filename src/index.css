@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.todos-container {
+  display: flex;
+  gap: 12px;
+}
+
+.todo {
+  width: 400px;
+  height: 250px;
+  border: 3px seagreen solid;
+  padding : 30px;
+  border-radius: 8px;
+  
+}
+.box {
+  width: 1200px;
+  height: 80px;
+  background-color: #eee;
+  border-radius: 8px;
+  display: flex;
+}
+.content-box{margin:  0 auto;
+padding: 25px;
+}
+.add-box{
+  padding: 25px;
+}
+.add-box button{
+
+background-color: aquamarine;
+}
+.todo-content{
+  font-size: 20px;
+  margin-top: 40px;
+}
+.todo-title{
+  font-size: x-large;
+  font-weight: 800;
+}
+.head-box{
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-between;
+}

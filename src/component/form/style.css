@@ -1,0 +1,13 @@
+.box {
+    width: 1200px;
+    height: 80px;
+    background-color: #eee;
+    border-radius: 8px;
+    display: flex;
+  }
+  .content-box{margin:  0 auto;
+  padding: 25px;
+  }
+  .add-box{
+    padding: 25px;
+  }
